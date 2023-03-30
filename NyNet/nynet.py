@@ -284,7 +284,7 @@ def banner(username):
                                               ''' + F.RESET
     print("")
     print(banner)
-    print(f" {F.WHITE}-{F.YELLOW} Developed by {F.MAGENTA}Ny-Networks {F.WHITE}-")
+    print(f" {F.WHITE}-{F.YELLOW} Developed by {F.MAGENTA}Black0utDev {F.WHITE}-")
     print("")
     menu(username)
 
