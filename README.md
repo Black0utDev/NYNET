@@ -12,3 +12,6 @@ NyNet is a basic python 3 stresser that comes with 3 pre-made methods (basic) an
 7. In line 16 of `nynet.py` add your blacklisted IP's
 8. If you are hosting your `database.db` file on a external server you can remove the comments in line 7,8,9 of `nynet.py` and in line `9` you should add your server IP and port you want to connect to when logging in.
 9. In line `292` of `nynet.py` add your attack methods from your API
+10. In line 88 of `nynet.py` add your API inside of `requests.get()`
+
+This is only meant to serve as a PoC and is to be used at your own risk. This is just a base product.
