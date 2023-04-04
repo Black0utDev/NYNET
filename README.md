@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/127352017/229747357-db56f032-a52f-4f72-bfe8-338a7bba261b.png)
+
+
 # NYNET
 NyNet is a basic python 3 stresser that comes with 3 pre-made methods (basic) and can also add implimentation for your own API. It also comes with a login system that can be configured easily and also managed and maintained within the C2 itself.
 
