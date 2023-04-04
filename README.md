@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/127352017/229747357-db56f032-a52f-4f72-bfe8-338a7bba261b.png)
+![image](https://user-images.githubusercontent.com/127352017/229747630-4fcfb0df-1a85-4531-91be-20cb81df114e.png)
 
 
 # NYNET
